@@ -1,0 +1,53 @@
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.*.local
+frontend/*.pem
+frontend/build/
+frontend/.DS_Store
+
+# Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.env
+backend/.env.local
+backend/venv/
+backend/env/
+backend/.vscode/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Docker
+*.log
+.dockerignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Videos and uploads (large files)
+/uploads/
+/videos/
+*.mp4
+*.mov
+*.avi
